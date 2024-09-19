@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button {
+  background-color: #004d40; /* Verde oscuro */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00332d; /* Un tono más oscuro al pasar el cursor */
+}
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #001f3f; /* Fondo azul marino para toda la página */
+}
+
+h2, h3, p {
+  color: #ffdd57; /* Amarillo */
+}
+
+h2:hover, h3:hover {
+  color: #d4af37; /* Transición a dorado */
+}
+
+a {
+  color: #004d40; /* Verde oscuro para los links */
+}
+
+a:hover {
+  color: #d4af37; /* Transición a dorado */
+}

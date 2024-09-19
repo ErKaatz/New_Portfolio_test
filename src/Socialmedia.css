@@ -1,0 +1,19 @@
+#social-media {
+    background-color: #001f3f; /* Fondo azul marino */
+    color: #ffffff;
+    padding: 50px;
+}
+
+#social-media h2 {
+    color: #ffdd57; /* Amarillo para el título */
+    margin-bottom: 20px;
+}
+
+#social-media a {
+    color: #ffdd57; /* Amarillo */
+    transition: color 0.3s;
+}
+
+#social-media a:hover {
+    color: #d4af37; /* Cambia a dorado al pasar el cursor */
+}

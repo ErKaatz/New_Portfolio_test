@@ -1,0 +1,52 @@
+#about-me {
+    background-color: #001f3f; /* Fondo azul marino */
+    padding: 50px;
+    color: yellow;
+}
+
+#about-me h2, #about-me h3 {
+    color: #ffdd57; /* Texto amarillo */
+}
+
+#about-me h2:hover, #about-me h3:hover {
+    color: #d4af37; /* Transición a dorado */
+}
+
+#about-me ul li {
+    background: #969696; /* Verde oscuro para resaltar las tecnologías */
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* AboutMe.css */
+.about-me {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    padding: 20px;
+  }
+  
+  .profile-img {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    border-radius: 50%; /* Opcional: para hacer la imagen circular */
+  }
+  
+  .info {
+    max-width: 600px; /* Ajusta el ancho máximo del texto */
+  }
+  
+  h1 {
+    color: navy; /* Ejemplo de color */
+  }
+  
+  p {
+    color: yellow;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
